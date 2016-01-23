@@ -10,7 +10,7 @@ module.exports = {
       'es5-shim/es5-sham'
     ],
     app: [
-      'babel-polyfill',
+      'babel/polyfill',
       './src/index.js'
     ]
   },
