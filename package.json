@@ -1,0 +1,41 @@
+{
+  "name": "babel6-async-await",
+  "version": "0.0.0",
+  "description": "Sample Project for verifying the 'async await' problem of Babel 6 in Internet Explorer 8.",
+  "scripts": {
+    "lint": "eslint src --fix",
+    "start": "babel-node webpack/devServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pitzcarraldo/babel6-async-await.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-runtime": "^6.4.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "es3ify-loader": "^0.1.0",
+    "es5-shim": "^4.4.1",
+    "eslint": "^1.10.1",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.10.0",
+    "express": "^4.13.3",
+    "script-loader": "^0.6.1",
+    "universal-fetch": "0.0.1",
+    "webpack": "^1.12.11",
+    "webpack-dev-middleware": "^1.4.0"
+  },
+  "engines": {
+    "node": "4.x || 5.x",
+    "npm": "2.x || 3.x"
+  }
+}
