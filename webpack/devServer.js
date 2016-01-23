@@ -2,7 +2,6 @@ import Express from 'express';
 import url from 'url';
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
-import webpackHotMiddleware from 'webpack-hot-middleware';
 import webpackConfig from './dev.config';
 
 const compiler = webpack(webpackConfig);
