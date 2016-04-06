@@ -9,10 +9,7 @@ module.exports = {
       'es5-shim',
       'es5-shim/es5-sham'
     ],
-    app: [
-      'babel-polyfill',
-      './src/index.js'
-    ]
+    app: './src/index.js'
   },
   output: {
     path: path.join(__dirname, '..', 'static', 'dist'),
@@ -34,10 +31,5 @@ module.exports = {
         loader: 'es3ify'
       }
     ]
-  },
-  plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-  ]
+  }
 };

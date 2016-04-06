@@ -1,4 +1,17 @@
 {
-  "plugins": ["transform-runtime"],
-  "presets": ["es2015-loose","stage-0", "react"]
+  "presets": [
+    "es2015-loose",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    [
+      "transform-async-to-module-method",
+      {
+        "module": "bluebird",
+        "method": "coroutine"
+      }
+    ]
+  ]
 }
