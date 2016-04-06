@@ -1,5 +1,4 @@
 import Express from 'express';
-import url from 'url';
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackConfig from './dev.config';
