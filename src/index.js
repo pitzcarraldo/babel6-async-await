@@ -1,4 +1,4 @@
-import 'babel-polyfill';
+Promise = Promise || require('babel-runtime/core-js/promise');
 import 'universal-fetch';
 
 fetch('/api.json')
